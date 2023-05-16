@@ -9,3 +9,6 @@ CREATE TABLE paris_nyc_airbnbs AS
 SELECT * FROM paris_clean_airbnb
 UNION ALL
 SELECT * FROM nyc_clean_airbnb;
+
+select * from paris_nyc_airbnbs
+limit 100;
