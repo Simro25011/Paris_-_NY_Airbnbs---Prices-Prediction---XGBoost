@@ -90,24 +90,38 @@ The price distribution per city for Airbnb listings depicts how listing prices a
 3. **Popular Room Types**: Analysis of the popularity of different room types.
 ![Popular Room Type by City](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Popular%20Room%20Types%20by%20City.png)
 
-The "Popular Room Type by City" refers to the most frequently listed type of room in each city. As we know, Airbnb allows hosts to categorize their listings as Entire home/apt, Private room, or Shared room. Analyzing the most popular room type in a city can provide insights into what guests prefer when visiting that location. For example, if 'Entire home/apt' is the most popular room type, it suggests that guests prefer privacy and exclusive access to the entire property. Conversely, a dominance of 'Shared rooms' might indicate that travelers to the city are more budget-conscious, or perhaps more open to social interactions with hosts or other guests. This information can be valuable for potential hosts deciding on the type of accommodation to offer, as well as for guests to understand what they can typically expect to find in that city.
+The "Popular Room Type by City" refers to the most frequently listed type of room in each city. As we know, Airbnb allows hosts to categorize their listings as Entire home/apt, Private room, or Shared room. Analyzing the most popular room type in a city can provide insights into what guests prefer when visiting that location. For example, if 'Entire home/apt' is the most popular room type, like in Paris, it suggests that guests prefer privacy and exclusive access to the entire property. Conversely, a dominance of 'Shared rooms' might indicate that travelers to the city are more budget-conscious, or perhaps more open to social interactions with hosts or other guests, which is New York's case. This information can be valuable for potential hosts deciding on the type of accommodation to offer, as well as for guests to understand what they can typically expect to find in that city.
 
-4. **Availability Trends**: Analysis of the availability of listings throughout the year.
+4. **Availability Trends**: Analysis of the availability of listings throughout the year for booking.
  - Overhall availibilty
  
 ![Overhall availibilty](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Overhall%20availability%20of%20Airbnbs%20per%20City.png)
 
+This difference can provide insights into several aspects of the Airbnb market in these two cities. It might suggest that hosts in Paris tend to make their properties available for a longer portion of the year than those in New York. It could also indicate differences in local regulations, demand cycles, or host strategies between the two cities.
+
+For potential guests, higher availability might mean more flexibility in booking. For potential hosts or property investors, understanding typical availability patterns can guide decisions about when and how long to list a property.
+
    - Trends over time per city
+
 
 ![Average availibilty per month in New York](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/NY%20Average%20Availability%20per%20Month.png)
 
 ![Average availibilty per month in Paris](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Paris%20Average%20Availability%20per%20Month.png)
 
+By comparing these trends between cities, one could understand how different markets are evolving and what factors might be driving these changes. This kind of analysis can be helpful for hosts in terms of pricing strategy and competitiveness, for guests in terms of planning their accommodations, and for city planners or regulators in understanding the impact of Airbnb on the local housing market.
 
-5. **Minimum Nights Requirement**: Analysis of the minimum nights requirement set by hosts.
+
+5. **Minimum Nights Requirement**: Analysis of the minimum nights requirement set by hosts.This is an indicator of the type of guests a host is targeting. If a host requires a long minimum stay (e.g., a week or a month), they may be seeking long-term tenants such as business travelers, students, or temporary residents, which can offer more stable income. On the other hand, hosts with a short minimum stay requirement might be targeting tourists or weekend visitors
+
 ![Distribution of minimum nights requirement in Paris](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Distribution%20of%20minimum%20nights%20requirement%20in%20Paris.png)
 
+- **Average minimum nights requirement in Paris: 3.7222997539388154 nights**
+On the other hand, an average of 3.72 nights in Paris suggests that hosts are slightly more oriented towards guests who are planning shorter stays, perhaps those who are in the city for a quick visit or a weekend trip. Hosts in Paris might be aiming to attract more short-term tourists, possibly owing to the city's immense popularity as a tourist destination where guests might pop in for a few days on a wider European tour.
+
 ![Distribution of minimum nights requirement in New York](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Distribution%20of%20minimum%20nights%20requirement%20in%20New%20York.png)
+
+- **Average minimum nights requirement in New York: 4.13465407831605 nights**
+An average of 4.13 nights in New York suggests that hosts are generally aiming to attract guests who will stay for about half a week, which could include tourists on extended weekend trips or business travelers. Hosts here seem to target guests looking for slightly longer stays. This could be because New York is a large city with many attractions; thus, tourists might need more time to fully explore, or it may be a popular destination for business trips.
 
 
 
