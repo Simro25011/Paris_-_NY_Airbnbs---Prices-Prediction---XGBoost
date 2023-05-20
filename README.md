@@ -7,8 +7,21 @@ This repository contains an in-depth analysis of Airbnb data for two of the most
 Understanding the dynamics of the Airbnb market in these cities will provide insights into various aspects like pricing strategies, popular neighborhoods, room types, and host behaviors. This analysis aims to help hosts optimize their operations, assist travelers in making informed decisions, and enable policymakers to understand the impact of Airbnb on the housing market.
 
 ## Dataset
+We will retrieved our dataset from OpenDataDOft platform. odsclient provides a minimal set of functions to grab a dataset or a collection of datasets from an OpenDataSoft (ODS) platform.
+The dataset regroups informations for Airbnbs in cities accross the world and in anticipation or the volume of the dataset we decide to save it directly in our local postgres database.
+For the purposes of our analysis we will only retrieve informations for Paris and New York.
+The initial dataset contained 88 columns , we will clean it and only keep the necessary informations for analysis.
 
-The dataset used for this analysis includes the following columns:
+
+To do that we will first conduct our prices predictions analysis using XGBoost It is an excellent choice for price prediction due to its ability to handle numeric features and non-linear relationships, its robustness to outliers, and its scalability for large datasets. It captures feature interactions automatically and offers regularization parameters to prevent overfitting. Its efficiency and performance make it well-suited for the complex and often noisy relationships found in pricing data. we will be able also to determine important features that we can use later on for our Exploratory Data analysis and vizualisation in Tableau.
+
+### Price Predictions
+
+
+
+
+## Analysis
+The final dataset used for this analysis includes the following columns:
 
 - `ID`: A unique identifier for each Airbnb listing
 - `Name`: The name of the Airbnb listing
@@ -27,7 +40,6 @@ The dataset used for this analysis includes the following columns:
 - `Availability 365`: The number of days in the next 365 days that the Airbnb is available
 - `City`: The city where the Airbnb is located (New York or Paris)
 
-## Analysis
 
 The analysis is divided into several parts:
 
