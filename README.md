@@ -46,7 +46,7 @@ In the context of predicting Airbnb prices in Paris, feature importance shows th
 
 In predicting Airbnb prices in New York, this  indicates that location is a prime determinant of price. Properties in proximity to significant attractions, prime areas, or transit routes likely command higher prices. The host's duration on Airbnb impacts the price less, suggesting guests value location over host experience in New York. Similarly, the property's capacity, or the number of people it can accommodate, is less influential in price determination. This could mean guests pay more for well-situated properties irrespective of size. 
 
-## Analysis
+#### Analysis
 The final dataset used for this analysis includes the following columns:
 
 - `ID`: A unique identifier for each Airbnb listing
@@ -115,17 +115,21 @@ By comparing these trends between cities, one could understand how different mar
 
 ![Distribution of minimum nights requirement in Paris](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Distribution%20of%20minimum%20nights%20requirement%20in%20Paris.png)
 
-- **Average minimum nights requirement in Paris: 3.7222997539388154 nights**
-On the other hand, an average of 3.72 nights in Paris suggests that hosts are slightly more oriented towards guests who are planning shorter stays, perhaps those who are in the city for a quick visit or a weekend trip. Hosts in Paris might be aiming to attract more short-term tourists, possibly owing to the city's immense popularity as a tourist destination where guests might pop in for a few days on a wider European tour.
+- **Average minimum nights requirement in Paris:** 3.7222997539388154 nights
+suggests that hosts are slightly more oriented towards guests who are planning shorter stays, perhaps those who are in the city for a quick visit or a weekend trip. Hosts in Paris might be aiming to attract more short-term tourists, possibly owing to the city's immense popularity as a tourist destination where guests might pop in for a few days on a wider European tour.
 
 ![Distribution of minimum nights requirement in New York](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Distribution%20of%20minimum%20nights%20requirement%20in%20New%20York.png)
 
-- **Average minimum nights requirement in New York: 4.13465407831605 nights**
-An average of 4.13 nights in New York suggests that hosts are generally aiming to attract guests who will stay for about half a week, which could include tourists on extended weekend trips or business travelers. Hosts here seem to target guests looking for slightly longer stays. This could be because New York is a large city with many attractions; thus, tourists might need more time to fully explore, or it may be a popular destination for business trips.
+- **Average minimum nights requirement in New York:** 4.13465407831605 nights
+suggests that hosts are generally aiming to attract guests who will stay for about half a week, which could include tourists on extended weekend trips or business travelers. Hosts here seem to target guests looking for slightly longer stays. This could be because New York is a large city with many attractions; thus, tourists might need more time to fully explore, or it may be a popular destination for business trips.
 
 
+##### Visualizations
+Interactive visualizations for this project have been created using Tableau and can be viewed on my Tableau Public profile. You'll find detailed views into the data which allow for dynamic and engaging exploration.
+[View the visualizations here.](https://public.tableau.com/app/profile/arnold.tchuente/viz/AirbnbNYCandParisAnalysis/Dashboard1)
+[Visualizations](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Visualizations_Airbnbs.png)
 
-## Conclusion
+###### Conclusion
 
 This analysis provides a detailed understanding of the Airbnb market in New York and Paris, which can be valuable for hosts, travelers, and policymakers. The choice of cities allows us to compare and contrast the market dynamics in two very different yet equally popular tourist destinations. 
 
