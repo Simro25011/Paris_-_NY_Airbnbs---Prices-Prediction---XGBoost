@@ -16,9 +16,9 @@ The initial dataset contained 88 columns , we will clean it and only keep the ne
 To do that we will first conduct our prices predictions analysis using XGBoost It is an excellent choice for price prediction due to its ability to handle numeric features and non-linear relationships, its robustness to outliers, and its scalability for large datasets. It captures feature interactions automatically and offers regularization parameters to prevent overfitting. Its efficiency and performance make it well-suited for the complex and often noisy relationships found in pricing data. we will be able also to determine important features that we can use later on for our Exploratory Data analysis and vizualisation in Tableau.
 
 ### Price Predictions
-I. Removing unnecessary features and preprocessing for both cities
+#### I. Removing unnecessary features and preprocessing for both cities
 
--'Country','City', 'State', 'Jurisdiction Names', 'Host Location', 'Market', 'Zipcode','Country Code', 'Smart Location': since we are going to predict prices only for paris, we can take them off.
+- 'Country','City', 'State', 'Jurisdiction Names', 'Host Location', 'Market', 'Zipcode','Country Code', 'Smart Location': since we are going to predict prices only for paris, we can take them off.
 - prices: since most of the airbnb don't have a special price for a whole week or month, we will drop 'Weekly Price' and 'Monthly Price' columns, and predict only daily price. (but I'll do that after filling null values in price column)
 -'Name', 'ID', 'Host Name', 'Host ID', 'Calendar Updated', 'Listing Url', 'Picture Url', 'Neighbourhood Cleansed', 'Interaction', 'Host Thumbnail Url', 'Thumbnail Url', 'Medium Url', 'XL Picture Url','Host Picture Url', 'Host URL': columns that will not help us in prediction.
 - empty columns: 'Host Acceptance Rate', 'Neighbourhood Group Cleansed', 'Experiences Offered', 'Experiences Offered', 'Has Availability', 'License'
@@ -29,15 +29,17 @@ I. Removing unnecessary features and preprocessing for both cities
 We decided to have 2 datasets one for the city of Paris and the other one for New York. THis way we can forcast prices and also which features are important for each city.
 The details on how we decided to fill null values, formatted columns and preprocessed are explained in our Jupyther notebook.
 
-II. Train, Test , Split
+#### II. Train, Test , Split
 For a more detailed walkthrough of the machine learning model, including the code and the logic behind it, please refer to the accompanying Jupyter notebook, which can be accessed [here](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Paris%20%26%20New%20York%20City%20Airbnb%20-%20Prices%20Prediction.ipynb).
 We used grid search that will find the best parameters to use in XGB with each specific city dataset and cross validation to test the model's ability to predict new data that was not used in estimating.
-  - Paris
 
+  - Paris
+![Features importance in Paris](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Paris%20features%20importances.png)
   
-  
+We can see the   
   
   - New York 
+![Features importance in New York](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/NY%20features%20importances.png)
 
 
 ## Analysis
