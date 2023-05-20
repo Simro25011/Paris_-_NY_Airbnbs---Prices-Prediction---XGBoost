@@ -37,12 +37,14 @@ We used grid search that will find the best parameters to use in XGB with each s
   
 ![Features importance in Paris](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Paris%20features%20importances.png)
   
-We can see the   
+In the context of predicting Airbnb prices in Paris, feature importance shows that cleaning fees are more influential than coordinates, host tenure, and accommodation capacity. This suggests that prices are more strongly related to cleaning costs, possibly reflecting property size or luxury level. While location and accommodation size do play a role, they are less predictive than cleaning fees.
+
   
   - Features importance in New York
   
 ![Features importance in New York](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/NY%20features%20importances.png)
 
+In predicting Airbnb prices in New York, this  indicates that location is a prime determinant of price. Properties in proximity to significant attractions, prime areas, or transit routes likely command higher prices. The host's duration on Airbnb impacts the price less, suggesting guests value location over host experience in New York. Similarly, the property's capacity, or the number of people it can accommodate, is less influential in price determination. This could mean guests pay more for well-situated properties irrespective of size. 
 
 ## Analysis
 The final dataset used for this analysis includes the following columns:
