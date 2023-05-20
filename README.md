@@ -30,7 +30,7 @@ We decided to have 2 datasets one for the city of Paris and the other one for Ne
 The details on how we decided to fill null values, formatted columns and preprocessed are explained in our Jupyther notebook.
 
 II. Train, Test , Split
-For a more detailed walkthrough of the machine learning model, including the code and the logic behind it, please refer to the accompanying Jupyter notebook, which can be accessed here [Paris & New York City Airbnb - Prices Prediction.ipynb](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Paris%20%26%20New%20York%20City%20Airbnb%20-%20Prices%20Prediction.ipynb).
+For a more detailed walkthrough of the machine learning model, including the code and the logic behind it, please refer to the accompanying Jupyter notebook, which can be accessed [here](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Paris%20%26%20New%20York%20City%20Airbnb%20-%20Prices%20Prediction.ipynb).
 We used grid search that will find the best parameters to use in XGB with each specific city dataset and cross validation to test the model's ability to predict new data that was not used in estimating.
   - Paris
 
