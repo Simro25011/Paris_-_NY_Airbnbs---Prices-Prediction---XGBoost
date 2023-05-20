@@ -127,7 +127,8 @@ suggests that hosts are generally aiming to attract guests who will stay for abo
 ##### Visualizations
 Interactive visualizations for this project have been created using Tableau and can be viewed on my Tableau Public profile. You'll find detailed views into the data which allow for dynamic and engaging exploration.
 [View the visualizations here.](https://public.tableau.com/app/profile/arnold.tchuente/viz/AirbnbNYCandParisAnalysis/Dashboard1)
-[Visualizations](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Visualizations_Airbnbs.png)
+
+![Visualizations](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Visualizations_Airbnbs.png)
 
 ###### Conclusion
 
