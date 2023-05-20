@@ -38,6 +38,7 @@ The analysis is divided into several parts:
    
    - New york
    ![Top 10 Airbnbs Neighbourhood in New York](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/top10_neighbourhoods_NY.png)
+   
 
 2. **Pricing Strategy**: Analysis of the pricing strategies adopted by hosts.
 ![Price distribution per City](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Price%20distribution%20per%20City.png)
@@ -53,6 +54,7 @@ The analysis is divided into several parts:
 ![Average availibilty per month in New York](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/NY%20Average%20Availability%20per%20Month.png)
 
 ![Average availibilty per month in Paris](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Paris%20Average%20Availability%20per%20Month.png)
+
 
 5. **Minimum Nights Requirement**: Analysis of the minimum nights requirement set by hosts.
 ![Distribution of minimum nights requirement in Paris](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Distribution%20of%20minimum%20nights%20requirement%20in%20Paris.png)
