@@ -37,11 +37,10 @@ The analysis is divided into several parts:
 4. **Host Analysis**: Analysis of host behavior, including the number of listings per host.
 5. **Availability Trends**: Analysis of the availability of listings throughout the year.
 6. **Minimum Nights Requirement**: Analysis of the minimum nights requirement set by hosts.
-7. **Review Analysis**: Analysis of the number of reviews received by listings.
+
 
 
 1. **Distribution of Listings**
- Using the  'Neighbourhood Cleansed' columns, We will  determine the distribution of Airbnb listings across different neighborhoods and find out what are the top 10 neighborhoods for Airbnbs.
    - Paris
    ![Top 10 Airbnbs Neighbourhood in Paris](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/top10_neighbourhoods_Paris.png)
    
@@ -51,6 +50,7 @@ The analysis is divided into several parts:
    
 
 2. **Pricing Strategy**
+
 ![Price distribution per City](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Price%20distribution%20per%20City.png)
 
 
@@ -58,16 +58,11 @@ The analysis is divided into several parts:
 ![Popular Room Type by City](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Popular%20Room%20Types%20by%20City.png)
 
 
-4. **Host Analysis**
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+4. **Availability Trends**
+   - Overhall availibilty
+![alt text](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Overhall%20availability%20of%20Airbnbs%20per%20City.png)
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-
-6. **Availability Trends**
-- Overhall availibilty
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-
--Trends over time per city
+   - Trends over time per city
 ![Average availibilty per month in New York](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/NY%20Average%20Availability%20per%20Month.png)
 
 ![Average availibilty per month in Paris](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Paris%20Average%20Availability%20per%20Month.png)
@@ -78,10 +73,7 @@ The analysis is divided into several parts:
 
 ![Distribution of minimum nights requirement in New York](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Distribution%20of%20minimum%20nights%20requirement%20in%20New%20York.png)
 
-7. **Review Analysis**
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 
 
