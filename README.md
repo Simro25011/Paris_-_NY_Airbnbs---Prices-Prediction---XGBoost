@@ -34,9 +34,8 @@ The analysis is divided into several parts:
 1. **Distribution of Listings**: Analysis of the geographic distribution of listings in both cities.
 2. **Pricing Strategy**: Analysis of the pricing strategies adopted by hosts.
 3. **Popular Room Types**: Analysis of the popularity of different room types.
-4. **Host Analysis**: Analysis of host behavior, including the number of listings per host.
-5. **Availability Trends**: Analysis of the availability of listings throughout the year.
-6. **Minimum Nights Requirement**: Analysis of the minimum nights requirement set by hosts.
+4. **Availability Trends**: Analysis of the availability of listings throughout the year.
+5. **Minimum Nights Requirement**: Analysis of the minimum nights requirement set by hosts.
 
 
 
@@ -68,7 +67,7 @@ The analysis is divided into several parts:
 ![Average availibilty per month in Paris](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Paris%20Average%20Availability%20per%20Month.png)
 
 
-8. **Minimum Nights Requirement**
+5. **Minimum Nights Requirement**
 ![Distribution of minimum nights requirement in Paris](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Distribution%20of%20minimum%20nights%20requirement%20in%20Paris.png)
 
 ![Distribution of minimum nights requirement in New York](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Distribution%20of%20minimum%20nights%20requirement%20in%20New%20York.png)
