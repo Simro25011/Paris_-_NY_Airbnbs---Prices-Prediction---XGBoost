@@ -74,19 +74,23 @@ The analysis is divided into several parts:
    ![Top 10 Airbnbs Neighbourhood in Paris](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/top10_neighbourhoods_Paris.png)
    
    
-   
-   
+    
    - New york
    ![Top 10 Airbnbs Neighbourhood in New York](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/top10_neighbourhoods_NY.png)
    
-   
+The "Top 10 Neighbourhoods in each city by Number of Listings" represent the most popular and available areas for Airbnb rentals in the respective cities. These neighborhoods often contain tourist attractions or amenities and are favored by hosts for listings due to high demand. However, they may also be highly competitive markets for new hosts. The number of listings can indicate both guest interest and availability of residences for short-term rental in these areas. 
 
 
-2. **Pricing Strategy**: Analysis of the pricing strategies adopted by hosts.
+2. **Pricing Strategy**: Analysis of the pricing strategies adopted by hosts
+
 ![Price distribution per City](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Price%20distribution%20per%20City.png)
+
+The price distribution per city for Airbnb listings depicts how listing prices are dispersed within each city. It offers an overview of minimum, maximum, average, or median prices and their frequency. The data might also spotlight high-priced outliers. This information aids potential guests in budget planning, hosts in competitive pricing, and gives insight into the affordability of a city. When compared, these distributions also highlight differences in accommodation costs across various cities.
 
 3. **Popular Room Types**: Analysis of the popularity of different room types.
 ![Popular Room Type by City](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Popular%20Room%20Types%20by%20City.png)
+
+The "Popular Room Type by City" refers to the most frequently listed type of room in each city. As we know, Airbnb allows hosts to categorize their listings as Entire home/apt, Private room, or Shared room. Analyzing the most popular room type in a city can provide insights into what guests prefer when visiting that location. For example, if 'Entire home/apt' is the most popular room type, it suggests that guests prefer privacy and exclusive access to the entire property. Conversely, a dominance of 'Shared rooms' might indicate that travelers to the city are more budget-conscious, or perhaps more open to social interactions with hosts or other guests. This information can be valuable for potential hosts deciding on the type of accommodation to offer, as well as for guests to understand what they can typically expect to find in that city.
 
 4. **Availability Trends**: Analysis of the availability of listings throughout the year.
  - Overhall availibilty
