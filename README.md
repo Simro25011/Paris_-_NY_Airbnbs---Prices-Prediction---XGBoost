@@ -7,6 +7,7 @@ This repository contains an in-depth analysis of Airbnb data for two of the most
 Understanding the dynamics of the Airbnb market in these cities will provide insights into various aspects like pricing strategies, popular neighborhoods, room types, and host behaviors. This analysis aims to help hosts optimize their operations, assist travelers in making informed decisions, and enable policymakers to understand the impact of Airbnb on the housing market.
 
 ## Dataset
+
 We will retrieved our dataset from OpenDataDOft platform. odsclient provides a minimal set of functions to grab a dataset or a collection of datasets from an OpenDataSoft (ODS) platform.
 The dataset regroups informations for Airbnbs in cities accross the world and in anticipation or the volume of the dataset we decide to save it directly in our local postgres database.
 For the purposes of our analysis we will only retrieve informations for Paris and New York.
@@ -15,7 +16,8 @@ The initial dataset contained 88 columns , we will clean it and only keep the ne
 
 To do that we will first conduct our prices predictions analysis using XGBoost It is an excellent choice for price prediction due to its ability to handle numeric features and non-linear relationships, its robustness to outliers, and its scalability for large datasets. It captures feature interactions automatically and offers regularization parameters to prevent overfitting. Its efficiency and performance make it well-suited for the complex and often noisy relationships found in pricing data. we will be able also to determine important features that we can use later on for our Exploratory Data analysis and vizualisation in Tableau.
 
-### Price Predictions
+## Price Predictions
+
 #### I. Removing unnecessary features and preprocessing for both cities
 
 - 'Country','City', 'State', 'Jurisdiction Names', 'Host Location', 'Market', 'Zipcode','Country Code', 'Smart Location': since we are going to predict prices only for paris, we can take them off.
@@ -46,7 +48,8 @@ In the context of predicting Airbnb prices in Paris, feature importance shows th
 
 In predicting Airbnb prices in New York, this  indicates that location is a prime determinant of price. Properties in proximity to significant attractions, prime areas, or transit routes likely command higher prices. The host's duration on Airbnb impacts the price less, suggesting guests value location over host experience in New York. Similarly, the property's capacity, or the number of people it can accommodate, is less influential in price determination. This could mean guests pay more for well-situated properties irrespective of size. 
 
-#### Analysis
+## Analysis
+
 The final dataset used for this analysis includes the following columns:
 
 - `ID`: A unique identifier for each Airbnb listing
@@ -124,13 +127,14 @@ suggests that hosts are slightly more oriented towards guests who are planning s
 suggests that hosts are generally aiming to attract guests who will stay for about half a week, which could include tourists on extended weekend trips or business travelers. Hosts here seem to target guests looking for slightly longer stays. This could be because New York is a large city with many attractions; thus, tourists might need more time to fully explore, or it may be a popular destination for business trips.
 
 
-##### Visualizations
+## Visualizations
+
 Interactive visualizations for this project have been created using Tableau and can be viewed on my Tableau Public profile. You'll find detailed views into the data which allow for dynamic and engaging exploration.
 [View the visualizations here.](https://public.tableau.com/app/profile/arnold.tchuente/viz/AirbnbNYCandParisAnalysis/Dashboard1)
 
 ![Visualizations](https://github.com/Simro25011/Paris_-_NY_Airbnbs---Prices-Prediction---XGBoost/blob/main/Resources/Visualizations_Airbnbs.png)
 
-###### Conclusion
+## Conclusion
 
 This analysis provides a detailed understanding of the Airbnb market in New York and Paris, which can be valuable for hosts, travelers, and policymakers. The choice of cities allows us to compare and contrast the market dynamics in two very different yet equally popular tourist destinations. 
 
